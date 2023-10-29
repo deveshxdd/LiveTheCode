@@ -10,7 +10,7 @@ function ChatPane() {
     return (
         <div className="chatPaneContainer">
             <div className="introTextContainer">
-                <h1>Start a new chat with <span>M</span>edi<span>M</span>ate!.</h1>
+                <h1>Start a new chat with <span>M</span>edi<span>G</span>PT!.</h1>
                 <h3>Your personal healthcare chatbot</h3>
             </div>
 

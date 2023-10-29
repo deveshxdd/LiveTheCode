@@ -9,16 +9,11 @@ function Contact() {
         <div className="contact-content">
           <div className="contact-left">
             <h3>Contact Us</h3>
-
-            <p>
-              Phone: Lakshay Gulati - @LakshayGMZ <br />
-              Vedant - @martian0x80 <br />
-              Anish Hazra - @AnishHazra <br />
-              Dhruv Gera - @Dhruvgera
-            </p>
+<p>Email: udevesh721@gmail.com</p>
+         
           </div>
           <div className="contact-right">
-            <h3>Follow Us</h3>
+
             <ul className="social-links">
               <li>
                 <a href="#" target="_blank" rel="noopener noreferrer">

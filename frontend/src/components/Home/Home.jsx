@@ -46,7 +46,7 @@ function Home() {
           <div className="text-col">
             <h2>Medicine And Home Remedies</h2>
             <p>
-            Chat with Medimate to explore a world of medicine and home remedies for a healthier life.
+            Chat with MediGPT to explore a world of medicine and home remedies for a healthier life.
             </p>
           </div>
         </div>
