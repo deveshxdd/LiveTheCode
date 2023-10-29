@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contact.css"
-import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -16,18 +16,18 @@ function Contact() {
 
             <ul className="social-links">
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/devesh-upadhyay-75458a226/?originalSubdomain=in" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/iamdevesh12/" target="_blank" rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <FaTwitter />
+                <a href="https://github.com/deveshxdd" target="_blank" rel="noopener noreferrer">
+                  <FaGithub />
                 </a>
               </li>
             </ul>
