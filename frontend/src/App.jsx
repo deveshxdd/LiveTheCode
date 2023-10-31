@@ -12,14 +12,14 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import About from "./components/about/About.jsx";
 import Use from "./components/use/Use.jsx";
 import Contact from "./components/contact/Contact.jsx";
-
+import Physical from "./Diagonisis/Physical.jsx";
 function App() {
   axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route exact path={"/"} element={<RootPage><Hero/><Home/><Use/><About/><Contact/><Footer/></RootPage>}/>
+          <Route exact path={"/"} element={<RootPage><Hero/><Home/><Use/><About/><Contact/><Physical /><Footer/></RootPage>}/>
           <Route path={"/login"} element={<Login />} />
           <Route path={"/register"} element={<Signup />} />
           <Route path={"/chat"} element={<RootPage><MainChat /></RootPage>}/>
