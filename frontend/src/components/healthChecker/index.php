@@ -26,7 +26,7 @@
 	if ( !isset( $_SESSION['userToken']) || !isset( $_SESSION['tokenExpireTime']) || time() >= $_SESSION['tokenExpireTime'] )
 	{
 		require 'token_generator.php';
-		$tokenGenerator = new TokenGenerator("Cg73K_GMAIL_COM_AUT","j9H5SkGw3t8JZp62M","https://authservice.priaid.ch/login");
+		$tokenGenerator = new TokenGenerator("Nj94B_GMAIL_COM_AUT","Bx54Gdq6P2Hnj9E7W","https://authservice.priaid.ch/login");
 		$token = $tokenGenerator->loadToken();
 		$_SESSION['userToken'] = $token->{'Token'};
 		$_SESSION['tokenExpireTime'] = time() + $token->{'ValidThrough'};
@@ -65,8 +65,8 @@
     <a class="nav-link" href="../profile.php">Profile</a>
   </nav> -->
 </header>
-<body style="margin-top:150px;">
-<h1 style="margin-left:42%;color:#00000;font-size:20px"><b>Physical Health Checker</b></h1><br>
+<body style="margin-top:150px; background-color:black;">
+<h1 style="margin-left:42%;color:pink;font-size:20px; background-color:black;"><b></b></h1><br>
     <table class="container-table">
         <tr>
             <td valign="middle" colspan="2" class="td-header box-white bordered-box width50"><h4 class="header" id="selectSymptomsTitle"><span class="badge pull-left badge-primary visible-lg margin5R">1</span></h4></td>
@@ -74,13 +74,13 @@
             <td valign="middle" class="td-header bordered-box box-white width25"><h4 class="header" id="possibleDiseasesTitle"><span class="badge pull-left badge-primary visible-lg margin5R">3</span></h4></td>
         </tr>
         <tr>
-            <td valign="top" class="selector_container bordered-box box-white width25"><div id="symptomSelector"></div></td>
-            <td valign="top" class="selector_container bordered-box box-white width25"><div id="symptomList"></div></td>
-            <td valign="top" class="selector_container bordered-box box-white width25"><div id="selectedSymptomList"></div></td>
-            <td valign="top" class="selector_container bordered-box box-white width25"><div id="diagnosisList"></div></td>
+            <td valign="top" class="selector_container bordered-box box-black width25"><div id="symptomSelector"></div></td>
+            <td valign="top" class="selector_container bordered-box box-black width25"><div id="symptomList"></div></td>
+            <td valign="top" class="selector_container bordered-box box-black width25"><div id="selectedSymptomList"></div></td>
+            <td valign="top" class="selector_container bordered-box box-black width25"><div id="diagnosisList"></div></td>
         </tr>
     </table>
     
-<h1 style="margin-left:42%;color:#00000;font-size:20px"><b>Made With ❤️ by Team ENIGMA</b></h1><br>
+<h1 style="margin-left:42%;color:pink;font-size:20px "><b>Made W  ith ❤️ by Team ENIGMA</b></h1><br>
 </body>
 </html>
