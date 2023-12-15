@@ -15,7 +15,7 @@ function Navbar() {
       <a href="/" className="logoText"><span>M</span>edi<span>G</span>PT.</a>
       <div className="desktopMenu">
         <Link activeClass='active' to='home' spy={true} smooth="true" offset={-100} duration={300} className="desktopMenuListItem">Home</Link>
-        <a className="physical" href='physical'>Physical Health Diagnosis</a>
+        <a className="physical" href= 'http://localhost/'>Physical Health Diagnosis</a>
         <Link activeClass='active' to='features' spy={true} smooth="true" offset={-50} duration={300} className="desktopMenuListItem">Features</Link>
         <Link activeClass='active' to='uses' spy={true} smooth="true" offset={-50} duration={300} className="desktopMenuListItem">How to use</Link>
         <Link activeClass='active' to='about' spy={true} smooth="true" offset={-80} duration={300} className="desktopMenuListItem">About Us</Link>
@@ -29,7 +29,7 @@ function Navbar() {
       <div className="mobMenu" onClick={()=>setShowMenu(!showMenu)}><FiMenu/></div>
       <div className="navMenu" style={{display: showMenu? 'flex': 'none'}}>
         <Link activeClass='active' to='home' spy={true} smooth="true" offset={-100} duration={300} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
-        <a  className="physical" href="physical">Physical Health Diagnosis</a>
+        <a  className="physical" href='http://localhost/'>Physical Health Diagnosis</a>
         <Link activeClass='active' to='features' spy={true} smooth="true" offset={-50} duration={300} className="listItem" onClick={()=>setShowMenu(false)}>Features</Link>
         <Link activeClass='active' to='uses' spy={true} smooth="true" offset={-50} duration={300} className="listItem" onClick={()=>setShowMenu(false)}>How to use</Link>
         <Link activeClass='active' to='about' spy={true} smooth="true" offset={-80} duration={300} className="listItem" onClick={()=>setShowMenu(false)}>About Us</Link>
